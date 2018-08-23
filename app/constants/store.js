@@ -8,9 +8,11 @@ import { ajax } from 'rxjs/observable/dom/ajax';
 import { of } from 'rxjs/observable/of';
 // ----------------
 
+/* eslint-disable import/no-unresolved */
 import hocReducer from '@hoc/cleanOnUnmount/reducer';
 import * as reducers from '@reducers';
 import epics from '@epics';
+/* eslint-enable import/no-unresolved */
 
 // global definitions
 import 'rxjs/add/operator/map';

@@ -231,6 +231,7 @@ module.exports = {
         // temporary overrides possibly due to version mismatches
         'jsx-a11y/href-no-hash': 'off',
         'jsx-a11y/img-has-alt': 'off',
-        'jsx-a11y/no-marquee': 'off'
+        'jsx-a11y/no-marquee': 'off',
+        'react/display-name': 'off'
     }
-}
+};

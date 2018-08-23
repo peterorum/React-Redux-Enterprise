@@ -1,11 +1,13 @@
-import * as types from '@constants/actionTypes';
+import * as types from '@constants/actionTypes'; // eslint-disable-line import/no-unresolved
 import persistReducer from 'redux-persist/lib/persistReducer';
 import storage from 'redux-persist/lib/storage';
 
 const persistConfig = {
   key: 'app',
   storage,
-  whitelist: [ /* keys to be persisted */ ]
+  whitelist: [
+    /* keys to be persisted */
+  ]
 };
 
 const initialState = {};
